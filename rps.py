@@ -1,11 +1,14 @@
-#Rock paper scissors
+#Rock paper scissors game
 import random
 
+# User scores
 user_score = 0
 computer_score = 0
 
+# Intro message
 print("\nWelcome to the Rock, Paper, Scissors game!\nGood luck!\n")
 
+# while loop to keep the game going until computer or user score 3 
 while computer_score < 3 and user_score < 3:
     user_guess = input("rock, paper, scissors?\n")
     computer_guess = random.choice(["rock", "paper", "scissors"])
