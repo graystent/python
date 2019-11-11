@@ -64,3 +64,14 @@ for key in apple:
     print(str(key) + " = " + str(apple[key]))
 del(apple["Offer"])
 print(apple)
+
+#list of lists
+phone_grid = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9],
+        ["*",0,"#"]
+    ]
+for row in phone_grid:
+    for column in row:
+        print(column)
